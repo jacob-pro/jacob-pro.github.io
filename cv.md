@@ -9,7 +9,7 @@ GitHub: [https://github.com/jacob-pro](https://github.com/jacob-pro)
 
 ## Personal Statement
 
-I am currently a third year undergraduate student studying computer science at the University
+I am currently a third year undergraduate student studying Computer Science at the University
 of Bristol. I have professional experience working as a software developer, as well as good
 knowledge of computer systems and networks. I am on track to finish my degree in summer this
 year (2021), and am looking for employment as a software developer ideally in the Bristol area.
