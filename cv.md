@@ -14,7 +14,7 @@ of Bristol. I have professional experience working as a software developer, as w
 knowledge of computer systems and networks. I am on track to finish my degree in summer this
 year (2021), and am looking for employment as a software developer ideally in the Bristol area.
 I'm very enthusiastic about working with modern languages such as Rust that can ensure
-memory and concurrency safety whilst maintaining good performance.
+memory and concurrency safety without compromising performance.
 
 ## Education
 
