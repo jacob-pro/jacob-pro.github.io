@@ -41,10 +41,10 @@ COMS10009 Object Oriented Programming (Y1) \
 A game written using JavaFX. I developed an extension to the game to support online multiplayer using websockets.
 
 COMS20805 Software Product Engineering (Y2, Group Project) \
-A group project to develop a prototype app for the Bristol Medical School called coMforT which is used for Mindfulness-based Cognitive Therapy.
-- Developed the backend server using Java, Spring Boot, Hibernate, Postgres, and OpenAPI, with high integration test coverage.
-- Setup a CI/CD pipeline using CircleCI to compile/test the sever, OpenAPI client libraries, Android app, and deploy to Amazon Elastic Container Registry.
-- Made contributions to the Android app (Java)
+A group project to develop a prototype app for the Bristol Medical School called coMforT which is used for Mindfulness-based Cognitive Therapy. \
+\- Developed the backend server using Java, Spring Boot, Hibernate, Postgres, and OpenAPI, with high integration test coverage. \
+\- Setup a CI/CD pipeline using CircleCI to compile/test the sever, OpenAPI client libraries,  Android app, and deploy to Amazon Elastic Container Registry. \
+\- Made contributions to the Android app (Java)
 
 COMS20001 Concurrent Computing (Y2) \
 <https://github.com/jacob-pro/arm-kernel> \
@@ -55,12 +55,12 @@ using Rust and C in an unhosted / bare-metal environment.
 
 Kiwi Joinery \
 <https://github.com/kiwi-joinery> \
-Developed a website for a joinery company including:
-- The front facing website (HTML/CSS/JavaScript)
-- A REST API using Rust (Actix Web & Diesel frameworks, Postgres)
-- A library for handling and validating web forms and multipart uploads in Actix
-- An administration website using Rust WASM (Yew Framework)
-- CI using Github Workflows
+Developed a website for a joinery company including: \
+\- The front facing website (HTML/CSS/JavaScript) \
+\- A REST API using Rust (Actix Web & Diesel frameworks, Postgres) \
+\- A library for handling and validating web forms and multipart uploads in Actix \
+\- An administration website using Rust WASM (Yew Framework) \
+\- CI using Github Workflows
 
 Solar Screen Brightness \
 <https://github.com/jacob-pro/solar-screen-brightness> \

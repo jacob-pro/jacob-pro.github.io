@@ -1,4 +1,4 @@
-# Curriculum vitae
+# Curriculum Vitae
 
 Jacob Halsey. Bristol, UK
 
@@ -31,7 +31,7 @@ Computer Science: A* \
 Mathematics: A* \
 Further Mathematics: A \
 Economics: A \
-Physics (AS only): A
+Physics (AS): A
 
 Westlands School: 2013 – 2015 \
 Westlands Lane, Torquay, TQ1 3PE \
