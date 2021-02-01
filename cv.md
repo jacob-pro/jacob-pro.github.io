@@ -13,6 +13,8 @@ I am currently a third year undergraduate student studying Computer Science at t
 of Bristol. I have professional experience working as a software developer, as well as good
 knowledge of computer systems and networks. I am on track to finish my degree in summer this
 year (2021), and am looking for employment as a software developer ideally in the Bristol area.
+I'm very enthusiastic about working with modern languages such as Rust that can ensure
+memory and concurrency safety whilst maintaining good performance.
 
 ## Education
 
