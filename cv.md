@@ -66,7 +66,7 @@ This mainly involved working with Microsoft products such as Windows Server, Act
 I was responsible for setting up the automated deployment of operating systems and software, first using WDS and later SCCM, for around 500 PCs. 
 I also configured and maintained the Remote Desktop services infrastructure for staff, students, and thin PCs.
 
-I also maintain a list of projects I have worked on at [my website](./projects.md), showing the software languages and frameworks that I am familiar with.
+I also maintain a list of projects I have worked on at [my website](https://www.jhalsey.com/projects.html), showing the software languages and frameworks that I am familiar with.
 
 ## Certifications
 
