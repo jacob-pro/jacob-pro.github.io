@@ -48,7 +48,7 @@ A group project to develop a prototype app for the Bristol Medical School called
 
 COMS20001 Concurrent Computing (Y2) \
 <https://github.com/jacob-pro/arm-kernel> \
-Developmed a basic operating system kernel for the ARM Cortex
+Developed a basic operating system kernel targeting ARM Cortex;
 using Rust and C in an unhosted / bare-metal environment.
 
 COMS30046 - Advanced Computer Architecture (Y3) \
