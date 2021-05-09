@@ -34,7 +34,7 @@ Developed the website (PHP/MySQL) used to administer their sales management app.
 
 ## University
 
-Noteable software projects during my degree at University of Bristol (2018-2021):
+Some interesting software projects during my degree at University of Bristol (2018-2021):
 
 COMS10009 Object Oriented Programming (Y1) \
 <https://github.com/jacob-pro/scotland-yard> \
@@ -50,6 +50,11 @@ COMS20001 Concurrent Computing (Y2) \
 <https://github.com/jacob-pro/arm-kernel> \
 Developmed a basic operating system kernel for the ARM Cortex
 using Rust and C in an unhosted / bare-metal environment.
+
+COMS30046 - Advanced Computer Architecture (Y3) \
+<https://github.com/jacob-pro/processor-simulator> \
+Implemented an out-of-order superscalar processor simulator, capable of running small programs compiled
+for the ARM Cortex M0 instruction set in ELF format.
 
 ## Other
 
