@@ -1,5 +1,7 @@
 # Projects
 
+A **non-exhaustive** list of various software projects I have developed or contributed to over the years.
+
 ## Createanet
 
 Commercial projects while employed at Createanet (Aug 2017 - Aug 2018):
@@ -56,7 +58,7 @@ COMS30046 - Advanced Computer Architecture (Y3) \
 Implemented an out-of-order superscalar processor simulator, capable of running small programs compiled
 for the ARM Cortex M0 instruction set in ELF format.
 
-## Other
+## Other / Personal Projects
 
 Kiwi Joinery \
 <https://github.com/kiwi-joinery> \
@@ -71,4 +73,19 @@ Solar Screen Brightness \
 <https://github.com/jacob-pro/solar-screen-brightness> \
 A PC utility to vary monitor brightness with sunrise/sunset times.
 Developed using Rust, Crossterm TUI, Win32 API.
-As well a C library for calculating sunrise sunset times themselves.
+It also uses a C library I had previously developed for calculating sunrise and sunset times.
+
+Astro Tablets \
+<https://github.com/jacob-pro/astro-tablets> \
+A tool for dating astronomical events recorded in ancient cuneiform tablets from around the 7th to 5th
+century B.C. - allowing a mapping from the Babylonian luni-solar calendar to the Julian calendar.
+Written using Python, SQLite, the Skyfield astronomy library and NASA JPL data.
+
+## Open Source Contributions
+
+libvirt/libvirt-rust: \
+[Test for and remove undefined symbols / non-existent functions](https://gitlab.com/libvirt/libvirt-rust/-/merge_requests/14)
+
+Turasa/libsignal-service-java: \
+[WebSocketConnection respects URL Connection Specs](https://github.com/Turasa/libsignal-service-java/pull/28)
+

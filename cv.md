@@ -9,10 +9,10 @@ GitHub: [https://github.com/jacob-pro](https://github.com/jacob-pro)
 
 ## Personal Statement
 
-I am currently a third year undergraduate student studying Computer Science at the University
-of Bristol. I have professional experience working as a software developer, as well as good
-knowledge of computer systems and networks. I am on track to finish my degree in summer this
-year (2021), and am looking for employment as a software developer ideally in the Bristol area.
+I am currently a software engineer working for Oracle OCI (Oracle Cloud Infrastructure).
+I studied BSc Computer Science at the University of Bristol, and also have
+previous experience developing commercial iOS apps.
+I have good knowledge of computer systems and networks and
 I'm very enthusiastic about working with modern languages such as Rust that can ensure
 memory and concurrency safety without compromising performance.
 
@@ -20,9 +20,9 @@ memory and concurrency safety without compromising performance.
 
 ### Undergraduate
 
-University of Bristol: 2018 - present \
+University of Bristol: 2018 - 2021 \
 BSc Computer Science \
-Year 1: 71, Year 2: 76
+(Results Pending)
 
 ### A Level
 
@@ -47,8 +47,10 @@ Higher Ranscombe Road, Brixham, TQ5 9HF \
 
 ## Experience
 
+Software Engineer - Oracle: 2021 - Present \
+Working as part of the API Gateway team at Oracle Cloud Infrastructure.
+
 Software Development Internship – Oracle: Summer 2019 \
-I had a 3-month internship as part of the API Gateway team at Oracle Cloud Infrastructure. 
 I developed the backend for an internal tool used for auditing cloud resources, with a REST and WebSockets API developed in Java and deployed using Docker. 
 I worked on performance metrics at the data plane of the API Gateway cloud service using Lua, 
 and implemented scheduled business metrics at the control plane of the API Gateway service, 
