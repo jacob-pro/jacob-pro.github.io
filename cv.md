@@ -22,7 +22,7 @@ memory and concurrency safety without compromising performance.
 
 University of Bristol: 2018 - 2021 \
 BSc Computer Science \
-(Results Pending)
+First Class Honours
 
 ### A Level
 
