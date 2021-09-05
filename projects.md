@@ -50,10 +50,10 @@ A group project to develop a prototype app for the Bristol Medical School called
 
 COMS20001 Concurrent Computing (Y2): \
 <https://github.com/jacob-pro/game-of-life> \
-High performance concurrent implementations of Conway's Game of Life, written in Go and Rust.
+High performance concurrent implementations of Conway's Game of Life, written in Go and Rust. \
 <https://github.com/jacob-pro/arm-kernel> \
 Developed a basic operating system kernel targeting ARM Cortex;
-using Rust and C in an unhosted / bare-metal environment. \
+using Rust and C in an unhosted / bare-metal environment.
 
 COMS30046 - Advanced Computer Architecture (Y3) \
 <https://github.com/jacob-pro/processor-simulator> \
