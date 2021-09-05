@@ -2,7 +2,7 @@
 
 A **non-exhaustive** list of various software projects I have developed or contributed to over the years.
 
-## Createanet
+## Createanet (2017-2018)
 
 Commercial projects while employed at Createanet (Aug 2017 - Aug 2018):
 
@@ -34,21 +34,23 @@ Whitecroft Lighting \
 <https://www.apkmonk.com/app/uk.co.createanet.whitecroft/> \
 Developed the website (PHP/MySQL) used to administer their sales management app.
 
-## University
+## University (2018-2021)
 
 Some interesting software projects during my degree at University of Bristol (2018-2021):
 
-COMS10009 Object Oriented Programming (Y1) \
+COMS10009 Object Oriented Programming (Y1): \
 <https://github.com/jacob-pro/scotland-yard> \
 A game written using JavaFX. I developed an extension to the game to support online multiplayer using websockets.
 
-COMS20805 Software Product Engineering (Y2, Group Project) \
+COMS20805 Software Product Engineering (Y2, Group Project): \
 A group project to develop a prototype app for the Bristol Medical School called coMforT which is used for Mindfulness-based Cognitive Therapy. \
 \- Developed the backend server using Java, Spring Boot, Hibernate, Postgres, and OpenAPI, with high integration test coverage. \
 \- Setup a CI/CD pipeline using CircleCI to compile/test the sever, OpenAPI client libraries,  Android app, and deploy to Amazon Elastic Container Registry. \
 \- Made contributions to the Android app (Java)
 
-COMS20001 Concurrent Computing (Y2) \
+COMS20001 Concurrent Computing (Y2): \
+<https://github.com/jacob-pro/game-of-life> \
+High performance concurrent implementations of Conway's Game of Life, written in Go and Rust. \
 <https://github.com/jacob-pro/arm-kernel> \
 Developed a basic operating system kernel targeting ARM Cortex;
 using Rust and C in an unhosted / bare-metal environment.
@@ -81,7 +83,7 @@ A tool for dating astronomical events recorded in ancient cuneiform tablets from
 century B.C. - allowing a mapping from the Babylonian luni-solar calendar to the Julian calendar.
 Written using Python, SQLite, the Skyfield astronomy library and NASA JPL data.
 
-## Open Source Contributions
+## Assorted Open Source Contributions
 
 libvirt/libvirt-rust: \
 [Test for and remove undefined symbols / non-existent functions](https://gitlab.com/libvirt/libvirt-rust/-/merge_requests/14)
@@ -89,3 +91,5 @@ libvirt/libvirt-rust: \
 Turasa/libsignal-service-java: \
 [WebSocketConnection respects URL Connection Specs](https://github.com/Turasa/libsignal-service-java/pull/28)
 
+stephaneyfx/brightness: \
+[Add Windows Support](https://github.com/stephaneyfx/brightness/pull/3/commits)
