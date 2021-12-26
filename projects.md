@@ -92,4 +92,4 @@ Turasa/libsignal-service-java: \
 [WebSocketConnection respects URL Connection Specs](https://github.com/Turasa/libsignal-service-java/pull/28)
 
 stephaneyfx/brightness: \
-[Add Windows Support](https://github.com/stephaneyfx/brightness/pull/3/commits)
+[Major contributions](https://github.com/stephaneyfx/brightness)
