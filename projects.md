@@ -16,6 +16,9 @@ stephaneyfx/brightness: \
 lettre/lettre: \
 [Make peer certificate available in SmtpConnection](https://github.com/lettre/lettre/pull/716)
 
+tmccombs/tls-listener: \
+[Various improvements](https://github.com/tmccombs/tls-listener)
+
 ## Open Source / Personal Projects
 
 Kiwi Joinery \
