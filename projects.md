@@ -37,10 +37,6 @@ Sunrise Sunset Calculator \
 A small C library for computing times of sunrise and sunset based on latitude / longitude.
 Also includes bindings for the Rust language.
 
-Hyper Graceful Shutdown \
-<https://github.com/jacob-pro/hyper-graceful> \
-Simple library / example showing how to gracefully shut down a Hyper HTTP server when using the low-level API.
-
 ### Applications
 
 Calpol \
@@ -87,6 +83,12 @@ Twitter Downloader \
 <https://github.com/jacob-pro/twitter-dl> \
 A simple Twitter media downloader and viewer written in Rust.
 
+### Experimental
+
+Hyper Graceful Shutdown \
+<https://github.com/jacob-pro/hyper-graceful> \
+Simple library / example showing how to gracefully shut down a Hyper HTTP server when using the low-level API.
+
 ## Undergraduate (2018-2021)
 
 Some interesting software projects during my degree at the University of Bristol (2018-2021):
@@ -120,15 +122,15 @@ for the ARM Cortex M0 instruction set in ELF format.
 Commercial projects while employed at Createanet (Aug 2017 - Aug 2018):
 
 hrn - world ratings \
-<https://apps.apple.com/gb/app/hrn-world-ratings/id1318772006> \
-Developed an iOS social networking and reviews app (Objective-C) and the REST API to power it (PHP/MySQL)
+<https://appadvice.com/app/hrn-world-ratings/1318772006> \
+Developed an iOS social media and reviews app (Objective-C) and the REST API to power it (PHP/MySQL)
 
 Punti Verdi \
 <https://appadvice.com/app/punti/1434540547> \
 Developed the iOS app (Objective-C) for a coffee shop rewards program.
 
 GEAV Contractor Control \
-<https://apps.apple.com/gb/app/geav-contractor-control/id1304304792> \
+<https://appadvice.com/app/geav-contractor-control/1304304792> \
 Developed an iOS health and safety forms app (Objective-C). \
 Also performed substantial maintenance on the REST API and admin website codebase (PHP/MySQL)
 
