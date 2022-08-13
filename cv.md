@@ -65,7 +65,7 @@ Software Developer – Createanet: 2017 – 2018 \
 Prior to starting university, I worked at Createanet for a year primarily as an iOS developer. 
 I developed 6 iOS apps mainly using Objective-C (and also some Swift). 
 One of these apps was a social media platform, others were for photo and video sharing, electronic forms / paperless, 
-consumer rewards, and video conferencing.  
+consumer rewards, and video conferencing.
 I also developed backend REST APIs and administration websites to manage the apps using PHP/MySQL.
 
 Part-Time – IT Support, Brixham College: 2011 – 2015 \
