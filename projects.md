@@ -11,7 +11,7 @@ Fix: Removed invalid functions, added test case to ensure symbols are valid.
 Fix: Ensure that the WebSocketConnection respects the ConnectionSpecs.
 
 [stephaneyfx/brightness](https://github.com/stephaneyfx/brightness/commits?author=jacob-pro): \
-Features: Added support for Windows.
+Features: Added support for Windows. Fix: Ensure blocking and async is used appropriately.
 
 [lettre/lettre](https://github.com/lettre/lettre/commits?author=jacob-pro): \
 Features: Added support for configuring local IP addresses, added functions to allow access to the TLS peer certificate.
