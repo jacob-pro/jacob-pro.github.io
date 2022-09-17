@@ -20,6 +20,9 @@ Features: Added support for configuring local IP addresses, added functions to a
 Features: Added native-tls and openssl library support, made it possible to reload TLS certificates at runtime, with 
 examples.
 
+[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator/commits?author=jacob-pro): \
+Various improvements to the Rust code generators.
+
 ## Personal Projects
 
 ### Libraries
