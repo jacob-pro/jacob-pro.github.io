@@ -10,17 +10,17 @@ Fix: Removed invalid functions, added test case to ensure symbols are valid.
 [Turasa/libsignal-service-java](https://github.com/Turasa/libsignal-service-java/pull/28): \
 Fix: Ensure that the WebSocketConnection respects the ConnectionSpecs.
 
-[stephaneyfx/brightness](https://github.com/stephaneyfx/brightness/commits?author=jacob-pro): \
+[stephaneyfx/brightness](https://github.com/stephaneyfx/brightness/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added support for Windows. Fix: Ensure blocking and async is used appropriately.
 
-[lettre/lettre](https://github.com/lettre/lettre/commits?author=jacob-pro): \
+[lettre/lettre](https://github.com/lettre/lettre/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added support for configuring local IP addresses, added functions to allow access to the TLS peer certificate.
 
-[tmccombs/tls-listener](https://github.com/tmccombs/tls-listener/commits?author=jacob-pro): \
+[tmccombs/tls-listener](https://github.com/tmccombs/tls-listener/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added native-tls and openssl library support, made it possible to reload TLS certificates at runtime, with 
 examples.
 
-[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator/commits?author=jacob-pro): \
+[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Various improvements to the Rust code generators.
 
 ## Personal Projects
