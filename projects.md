@@ -21,7 +21,7 @@ Features: Added native-tls and openssl library support, made it possible to relo
 examples.
 
 [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Various improvements to the Rust code generators.
+Various improvements to the Rust code generators. Member of Rust technical committee.
 
 [juhaku/utoipa](https://github.com/juhaku/utoipa/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added support for various parts of the OpenAPI specification.
