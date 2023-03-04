@@ -26,6 +26,12 @@ Various improvements to the Rust code generators. Member of Rust technical commi
 [juhaku/utoipa](https://github.com/juhaku/utoipa/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added support for various parts of the OpenAPI specification.
 
+[actix/actix-web](https://github.com/actix/actix-web/pulls?q=is%3Amerged+author%3Ajacob-pro): \
+Features: Added a type safe multipart form extractor.
+
+[lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core/pulls?q=is%3Amerged+author%3Ajacob-pro): \
+Fix: Support TLS CA only verification when connecting to a Redis Cluster.
+
 ## Personal Projects
 
 ### Libraries
@@ -33,10 +39,6 @@ Features: Added support for various parts of the OpenAPI specification.
 Actix Extensible Rate Limit \
 <https://github.com/jacob-pro/actix-extensible-rate-limit> \
 Rate limiting middleware for the actix-web framework, with support for a variety of custom and advanced use-cases.
-
-Actix Easy Multipart \
-<https://github.com/jacob-pro/actix-easy-multipart> \
-A library for automatic loading, deserializing and validation of multipart form data uploads in the actix-web framework.
 
 Sunrise Sunset Calculator \
 <https://github.com/jacob-pro/sunrise-sunset-calculator> \
