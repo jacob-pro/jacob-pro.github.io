@@ -29,8 +29,8 @@ Features: Added support for various parts of the OpenAPI specification.
 [actix/actix-web](https://github.com/actix/actix-web/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added a type safe multipart form extractor.
 
-[lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Fix: Support TLS CA only verification when connecting to a Redis Cluster.
+[lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core/pulls?q=is%3Aclosed+author%3Ajacob-pro+): \
+Fix: Support TLS CA only verification when connecting to a Redis Cluster. Improvements made to refresh logging.
 
 ## Personal Projects
 
