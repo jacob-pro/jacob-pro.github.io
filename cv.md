@@ -53,8 +53,7 @@ Continued to work in the API Gateway team, gaining further experience with Java 
   [OCI Certificates service](https://docs.oracle.com/en-us/iaas/Content/certificates/overview.htm).
 - Building comprehensive customer experience tooling, and customer impact alerting using the 
   [OCI Monitoring services](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Concepts/monitoringoverview.htm).
-- Development of NGINX Lua modules to support integration between API Gateway and 
-  [Oracle Identity Cloud Service](https://docs.oracle.com/en/cloud/paas/identity-cloud/uaids/oracle-identity-cloud-service-concepts.html#GUID-D00FA725-7B0C-4111-A71E-24894240D84B).
+- Development of NGINX Lua modules.
 
 **Software Engineer - Oracle: 2021 - 2023**
 
