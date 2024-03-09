@@ -8,7 +8,7 @@ A **non-exhaustive** list of various software projects I have developed or contr
 Fix: Support TLS CA only verification when connecting to a Redis Cluster. Improvements made to refresh logging.
 
 [actix/actix-web](https://github.com/actix/actix-web/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-🔥 Features: Added a type safe [multipart form extractor](https://docs.rs/actix-multipart/latest/actix_multipart/form/index.html).
+⭐ Features: Added a type safe [multipart form extractor](https://docs.rs/actix-multipart/latest/actix_multipart/form/index.html).
 
 [juhaku/utoipa](https://github.com/juhaku/utoipa/pulls?q=is%3Amerged+author%3Ajacob-pro): \
 Features: Added support for various parts of the OpenAPI specification.
@@ -24,7 +24,7 @@ examples.
 Features: Added support for configuring local IP addresses, added functions to allow access to the TLS peer certificate.
 
 [stephaneyfx/brightness](https://github.com/stephaneyfx/brightness/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-🔥 Features: Added support for Windows. Fix: Ensure blocking and async is used appropriately.
+⭐ Features: Added support for Windows. Fix: Ensure blocking and async is used appropriately.
 
 [Turasa/libsignal-service-java](https://github.com/Turasa/libsignal-service-java/pull/28): \
 Fix: Ensure that the WebSocketConnection respects the ConnectionSpecs.
@@ -34,11 +34,11 @@ Fix: Removed invalid functions, added test case to ensure symbols are valid.
 
 ## Personal Projects
 
-🔥 Solar Screen Brightness \
+⭐ Solar Screen Brightness \
 <https://github.com/jacob-pro/solar-screen-brightness> \
 A Windows & Linux desktop application to smoothly adjust monitor brightness according to sunrise/sunset times.
 
-🔥 Actix Extensible Rate Limit \
+⭐ Actix Extensible Rate Limit \
 <https://github.com/jacob-pro/actix-extensible-rate-limit> \
 Rate limiting middleware for the actix-web framework, with support for a variety of custom and advanced use-cases.
 
@@ -46,7 +46,7 @@ Sunrise Sunset Calculator \
 <https://github.com/jacob-pro/sunrise-sunset-calculator> \
 A library for computing times of sunrise and sunset based on latitude / longitude. Implementations in C and Rust.
 
-🔥 WSL2 DNS Agent \
+⭐ WSL2 DNS Agent \
 <https://github.com/jacob-pro/wsl2-dns-agent> \
 A utility for automatically updating WSL2 DNS configs when using a VPN.
 
