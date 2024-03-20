@@ -60,7 +60,7 @@ Continued to work in the API Gateway team, gaining further experience with Java 
 Working as part of the API Gateway team in Oracle Cloud Infrastructure (OCI). \
 Experience with Java, Python, Typescript/React, Docker, Terraform, Lua/NGINX, and Redis.
 
-- Linux system automation using Python (SELinux, FIPS, etc.)
+- Linux system automation using Python.
 - Major contributions to the [Usage Plans](https://blogs.oracle.com/cloud-infrastructure/post/announcing-api-usage-plans-cloud)
   feature, including writing [cloud controllers](https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-workflow-oci-controllers) 
   to synchronise control-plane and data-plane state, developing the public console pages for [subscriber management](https://docs.oracle.com/en-us/iaas/Content/APIGateway/Tasks/apigatewaydefiningusageplans_topic-Creating-a-subscriber.htm), 
