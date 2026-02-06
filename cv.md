@@ -12,14 +12,23 @@ GitHub: [https://github.com/jacob-pro](https://github.com/jacob-pro)
 
 ## Personal Statement
 
-I am currently a senior software engineer working on Oracle's cloud infrastructure platform (OCI).
-I have extensive experience using and building modern cloud technologies, with strong knowledge of computer systems 
-and networks.
-I studied BSc Computer Science at the University of Bristol, and have previous experience developing commercial
-iOS apps and REST APIs.
-I'm very enthusiastic about working with modern languages like Rust that can ensure memory and concurrency safety 
-without compromising performance.
-Furthermore, I am passionate about open source software and have made a number of contributions to different projects.
+I am currently a senior software engineer working on Oracle Cloud's API Gateway, which is a large scale 
+production service active in over 100 data centres.
+I have an in-depth knowledge of computer systems and networks, and experience with a number of different programming languages. 
+I have a strong attention to detail, with a focus on producing clean and simple software abstractions.
+In particular, I am interested in modern systems languages like Rust that can ensure memory and concurrency safety without compromising performance.
+and have made a number of contributions to open source projects.
+
+## Skills
+
+- Programming in Java, Rust, C, Python, Lua, Objective-C, Swift, PHP, Go, Typescript & Javascript.
+- Experience with concurrent programming and distributed systems (sharding, leader election).
+- Automated testing; developing unit tests, end-to-end integration tests, CI pipelines.
+- Strong knowledge of the HTTP/1.1, HTTP/2.0, and WebSockets protocols, modern authentication systems (JWT, 
+  OAuth 2.0, OIDC, mTLS).
+- Provisioning infrastructure with Terraform, packaging with Docker, maintaining Linux and Windows systems.
+- Databases: key-value stores such as Redis, SQL including Oracle Database, Postgres, MySQL.
+- Experience with operations and maintenance, structured logging, telemetry, zero downtime deployments, and on-call incident response.
 
 ## Education
 
@@ -27,7 +36,7 @@ Furthermore, I am passionate about open source software and have made a number o
 
 University of Bristol: 2018 - 2021 \
 BSc Computer Science \
-First Class Honours ([transcript](https://www.jhalsey.com/transcript.pdf))
+First Class Honours
 
 ### A Level
 
@@ -46,56 +55,43 @@ BTEC Level 3 Diploma in IT: Distinction* Distinction*
 
 **Senior Software Engineer - Oracle: 2023 - Present**
 
-Promoted to senior position based on excellent work with Redis. \
-Continued to work in the API Gateway team, gaining further experience with Java and Lua/NGINX, projects include:
+As part of the API Gateway team, I make substantial contributions to a cloud service that is processing over
+20 billion HTTP requests per week, with particular focus on the core data plane proxy application.
 
-- Securing internal components with automated mTLS using the 
-  [OCI Certificates service](https://docs.oracle.com/en-us/iaas/Content/certificates/overview.htm).
-- Building comprehensive customer experience tooling, and customer impact alerting using the 
-  [OCI Monitoring services](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Concepts/monitoringoverview.htm).
-- Development of NGINX Lua modules.
+Key achievements:
+
+- Development of graceful shutdown functionality, with full observability on interrupted HTTP requests.
+- Substantial contributor to a successful rewrite and modernisation of our data plane proxy server from 
+  NGINX/Lua to Jetty/Java. This included the HTTP request body processing logic, in-memory loading caches, logging, and 
+  authentication modules. 
+- Replacement of password based Redis authentication with a fully automated mTLS solution.
 
 **Software Engineer - Oracle: 2021 - 2023**
 
-Working as part of the API Gateway team in Oracle Cloud Infrastructure (OCI). \
-Experience with Java, Python, Typescript/React, Docker, Terraform, Lua/NGINX, and Redis.
+Working as part of the API Gateway team, key achievements:
 
-- Linux system automation using Python.
 - Major contributions to the [Usage Plans](https://blogs.oracle.com/cloud-infrastructure/post/announcing-api-usage-plans-cloud)
-  feature, including writing [cloud controllers](https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-workflow-oci-controllers) 
-  to synchronise control-plane and data-plane state, developing the public console pages for [subscriber management](https://docs.oracle.com/en-us/iaas/Content/APIGateway/Tasks/apigatewaydefiningusageplans_topic-Creating-a-subscriber.htm), 
-  and automated end-to-end tests for the whole feature.
-- Extensive experience managing and automating high-availability Redis clusters. 
-  Implemented [rack-zone awareness](https://github.com/redis/redis/issues/11306#issuecomment-1607571197),
-  designed compact / CPU efficient clusters, created an automated process for server migration between X86 and ARM shapes. 
-  Changes led to significant cost savings, operations and reliability improvements.
-- Led efforts to improve team processes, including development of a new functional test suite, introducing
+  feature. I wrote the [cloud controllers](https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-workflow-oci-controllers) 
+  that synchronise control-plane and data-plane state (Java), developed the public console pages or subscriber management (React/Typescript), 
+  and built automated end-to-end tests for the whole feature (Java).
+- Extensive experience managing and automating highly available Redis clusters (with sharding and replication). 
+  Developed an automation for [rack-zone awareness](https://github.com/redis/redis/issues/11306#issuecomment-1607571197), 
+  set up a compact cluster mode that required fewer CPU cores, and developed an automated process for zero-downtime 
+  cluster migration between X86 and ARM shapes. Changes led to significant cost savings, operations and reliability improvements.
+- Drove efforts to improve team processes, including development of a new integration test suite, introducing
   templating engines for internal documentation, improvement of CI pipelines with type checking and linting.
 
 **Software Development Internship – Oracle: Summer 2019** 
 
-I developed an internal tool used for auditing cloud resources, with a REST and WebSockets API implemented in Java and 
-packaged with Docker. 
-Worked on performance metrics at the data plane of the API Gateway service using Lua.
-Implemented scheduled business metrics at the control plane of the API Gateway service (Java), along with a Grafana 
-dashboard used by management to monitor deployments and feature usage. 
-I also worked on a feature to scale Gateways to support higher throughput.
+- Developed an internal tool used for auditing cloud resources (Java, Docker).
+- Developed the per-request metrics reporter in the API Gateway data plane (NGINX/Lua).
+- Developed scheduled business metrics (Java), with a Grafana dashboard used by management to monitor feature usage. 
 
 **Software Developer – Createanet: 2017 – 2018** 
 
-Prior to starting university, I worked at Createanet for a year primarily as an iOS developer. 
-I developed 6 iOS apps mainly using Objective-C (and also some Swift). 
-One of these apps was a social media platform, others were for photo and video sharing, electronic forms / paperless, 
-consumer rewards, and video conferencing.
-I also developed backend REST APIs and administration websites to manage the apps using PHP/MySQL.
-
-**Part-Time – IT Support, Brixham College: 2011 – 2015**
-
-Whilst I was at Brixham College I had a part-time job with the IT department, this mainly involved working with
-Microsoft products such as Windows Server, Active Directory, Exchange Server, and Hyper-V. 
-I was responsible for setting up the automated deployment of operating systems and software, first using WDS and later 
-SCCM, for around 500 PCs. 
-I also built and maintained the Remote Desktop services infrastructure for staff, students, and thin PCs.
+- Developed 6 iOS apps (Objective-C, Swift), one of these apps was a social media platform, others were for photo 
+and video sharing, electronic forms / paperless, consumer rewards, and video conferencing.
+- Developed REST APIs and administration websites to power the apps (PHP/MySQL).
 
 **Open Source**
 
