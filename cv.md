@@ -13,11 +13,11 @@ GitHub: [https://github.com/jacob-pro](https://github.com/jacob-pro)
 ## Personal Statement
 
 I am currently a senior software engineer working on Oracle Cloud's API Gateway, which is a large scale 
-production service active in over 100 data centres.
+production service deployed in over 100 data centres.
 I have an in-depth knowledge of computer systems and networks, and experience with a number of different programming languages. 
 I have a strong attention to detail, with a focus on producing clean and simple software abstractions.
 In particular, I am interested in modern systems languages like Rust that can ensure memory and concurrency safety without compromising performance.
-and have made a number of contributions to open source projects.
+and have made a [number of contributions](https://www.jhalsey.com/projects.html) to open source Rust projects.
 
 ## Skills
 
@@ -35,21 +35,15 @@ and have made a number of contributions to open source projects.
 ### Undergraduate
 
 University of Bristol: 2018 - 2021 \
-BSc Computer Science \
-First Class Honours
+BSc Computer Science: First Class Honours
 
 ### A Level
 
-Churston Grammar School: 2015 – 2017
-
-Computer Science: A* \
-Mathematics: A* \
-Further Mathematics: A \
-Economics: A \
-Physics (AS): A
+Churston Grammar School: 2015 – 2017 \
+Computer Science: A\*, Maths: A\*, Further Maths: A, Economics: A, Physics (AS): A
 
 Westlands School: 2013 – 2015 \
-BTEC Level 3 Diploma in IT: Distinction* Distinction*
+BTEC Level 3 Diploma in IT: Distinction\* Distinction\*
 
 ## Experience
 
@@ -67,8 +61,6 @@ Key achievements:
 - Replacement of password based Redis authentication with a fully automated mTLS solution.
 
 **Software Engineer - Oracle: 2021 - 2023**
-
-Working as part of the API Gateway team, key achievements:
 
 - Major contributions to the [Usage Plans](https://blogs.oracle.com/cloud-infrastructure/post/announcing-api-usage-plans-cloud)
   feature. I wrote the [cloud controllers](https://blogs.oracle.com/cloud-infrastructure/post/behind-the-scenes-workflow-oci-controllers) 
@@ -93,16 +85,8 @@ Working as part of the API Gateway team, key achievements:
 and video sharing, electronic forms / paperless, consumer rewards, and video conferencing.
 - Developed REST APIs and administration websites to power the apps (PHP/MySQL).
 
-**Open Source**
-
-I maintain a list of projects on [my website](https://www.jhalsey.com/projects.html), showcasing some of my 
-contributions to open source.
-
 ## Certifications
 
-CCNA R&S: 2016 – 2019 \
-I [passed](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url) the Cisco Certified 
-Network Associate Routing and Switching exams entirely self-taught. 
-Topics included IPv4/6, TCP/UDP, Ethernet (VLANs, STP, security), static and dynamic routing.
-
-Full UK Driving License
+Cisco CCNA Routing and Switching: 2016 – 2019 \
+I [passed](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url) these exams self-taught,
+topics included IPv4/6, TCP/UDP, Ethernet (VLANs, STP, security), static and dynamic routing.
