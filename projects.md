@@ -111,32 +111,26 @@ for the ARM Cortex M0 instruction set in ELF format.
 
 Commercial projects while employed at Createanet (Aug 2017 - Aug 2018):
 
-hrn - world ratings \
-<https://appadvice.com/app/hrn-world-ratings/1318772006> \
+[hrn - world ratings](https://archive.is/dbKXi) \
 Developed an iOS social media and reviews app (Objective-C) and the entire REST API to power it (PHP/MySQL). \
 Features included user profiles with photo, video and status posts, a timeline, comments, and push notifications.
 
-Punti Verdi \
-<https://appadvice.com/app/punti/1434540547> \
+[Punti Verdi](https://web.archive.org/web/20250208103936/https://appadvice.com/app/punti/1434540547) \
 Developed the iOS app (Objective-C) for a coffee shop rewards program.
 
-GEAV Contractor Control \
-<https://appadvice.com/app/geav-contractor-control/1304304792> \
+[GEAV Contractor Control](https://web.archive.org/web/20251211031356/https://appadvice.com/app/geav-contractor-control/1304304792) \
 Developed an iOS health and safety forms app (Objective-C). \
 Implemented a form controls library configurable with JSON (text input, radio buttons, dropdowns, signature input, etc.). \
 Also performed substantial maintenance on the REST API and admin website codebase (PHP/MySQL).
 
-Circles \
-<https://appadvice.com/app/circles-group-video-chat/1273432314> \
+[Circles](https://web.archive.org/web/20251212103922/https://appadvice.com/app/circles-group-video-chat/1273432314) \
 Redeveloped the iOS app (Swift) as well as the REST API (PHP/MySQL) for a group video call app.
 
 Sentimento \
 Jointly developed the iOS app (Objective-C) for a photo storage / sharing service.
 
-myAllergy Passport \
-<https://apps.apple.com/gb/app/myallergy-passport/id1437609648> \
+[myAllergy Passport](https://web.archive.org/web/20220626081540/https://apps.apple.com/gb/app/myallergy-passport/id1437609648) \
 Developed the iOS app (Objective-C) for sharing allergy information.
 
 Whitecroft Lighting \
-<https://www.apkmonk.com/app/uk.co.createanet.whitecroft/> \
 Developed the website (PHP/MySQL) used to administer their sales management app.
