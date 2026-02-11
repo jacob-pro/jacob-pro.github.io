@@ -87,6 +87,5 @@ BTEC Level 3 Diploma in IT: Distinction\* Distinction\*
 
 ## Certifications
 
-Cisco CCNA Routing and Switching: 2016 – 2019 \
-I [passed](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url) these exams self-taught,
-topics included IPv4/6, TCP/UDP, Ethernet (VLANs, STP, security), static and dynamic routing.
+Cisco CCNA Routing and Switching: [2016 – 2019](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url) \
+Topics included IPv4/6, TCP/UDP, Ethernet (VLANs, STP, security), static and dynamic routing.
