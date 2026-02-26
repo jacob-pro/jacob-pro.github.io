@@ -10,14 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        
-      - name: Run the CV script
-        uses: docker://pandoc/latex
-        with: 
-          entrypoint: sh
-          args: cv.sh
-          workdir: /github/workspace/
-          
+
       - name: Remove gitignore for pages
         run: rm -f .gitignore
           
