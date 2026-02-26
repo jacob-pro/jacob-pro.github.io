@@ -1,5 +1,5 @@
 ---
-geometry: margin=3.5cm
+geometry: margin=3.1cm
 ---
 # Curriculum Vitae
 
@@ -12,21 +12,23 @@ GitHub: [https://github.com/jacob-pro](https://github.com/jacob-pro)
 
 ## Personal Statement
 
-I am currently a senior software engineer working on Oracle Cloud's API Gateway, which is a large scale 
-production service deployed in over 100 data centres.
-I have an in-depth knowledge of computer systems and networks, and experience with a number of different programming languages. 
-I have a strong attention to detail, with a focus on producing clean and simple software abstractions.
-In particular, I am interested in modern systems languages like Rust that can ensure memory and concurrency safety without compromising performance.
-and have made a [number of contributions](https://www.jhalsey.com/projects.html) to open source Rust projects.
+Senior software engineer specialising in large-scale cloud infrastructure. 
+Currently building Oracle Cloud’s API Gateway, a globally deployed service processing 20B+ HTTP requests per week. 
+Experience designing and leading feature development across data plane and control plane systems, with a 
+strong focus on correctness, observability, and operational resilience.
+
+I focus on designing clean, well-defined abstractions, ensuring performance and safety without sacrificing maintainability. 
+I also contribute to a [number of open-source Rust projects](https://www.jhalsey.com/projects.html), reflecting a 
+continued interest in memory-safe, high-performance systems programming.
 
 ## Skills
 
-- Programming in Java, Rust, C, Python, Lua, Objective-C, Swift, PHP, Go, Typescript & Javascript.
-- Experience with concurrent programming and building distributed systems.
+- Java and Rust focus, plus experience with C, Python, Lua, Objective-C, Swift, PHP, Go, Typescript & Javascript.
+- Experience with concurrent programming and distributed systems.
 - Automated testing; unit testing, integration testing, CI pipelines.
 - Strong knowledge of the HTTP/1.1, HTTP/2.0, and WebSockets protocols, modern authentication systems (JWT, 
   OAuth 2.0, OIDC, mTLS).
-- Provisioning infrastructure with Terraform, packaging with Docker, maintaining Linux and Windows systems.
+- Provisioning infrastructure with Terraform, maintaining Linux and Windows systems.
 - Databases: key-value stores including Redis, SQL including Oracle, Postgres, MySQL.
 - Experience with operations and maintenance, structured logging, telemetry, zero downtime deployments, and on-call incident response.
 
@@ -34,16 +36,16 @@ and have made a [number of contributions](https://www.jhalsey.com/projects.html)
 
 **Senior Software Engineer - Oracle: 2023 - Present**
 
-As part of the API Gateway team, I make substantial contributions to a cloud service that is processing over
-20 billion HTTP requests per week, with particular focus on the core data plane proxy application.
+Member of the API Gateway team, with particular focus on the data plane components. Key achievements:
 
-Key achievements:
-
-- Development of graceful shutdown functionality, with full observability of interrupted HTTP requests.
+- Development of graceful shutdown functionality, enabling full observability of interrupted HTTP requests.
+  The provided data is now used to ensure we meet our SLOs.
 - Substantial contributor to a successful rewrite and modernisation of our data plane proxy server from 
-  NGINX/Lua to Jetty/Java. This included the HTTP request body processing logic, in-memory loading caches, logging, and 
-  authentication modules. 
-- Replacement of password based Redis authentication with a fully automated mTLS solution.
+  NGINX/Lua to Jetty/Java. This included the HTTP request and response body processing logic, in-memory loading caches, 
+  logging, and authentication modules. The new proxy has enabled faster feature development, better observability,
+  and eliminated dozens of bugs.
+- Replacement of password based Redis authentication with a fully automated mTLS solution. Led to improved security
+  posture and eliminated the outages previously caused by rotations. 
 
 **Software Engineer - Oracle: 2021 - 2023**
 
@@ -87,5 +89,5 @@ BTEC Level 3 Diploma in IT: Distinction\* Distinction\*
 
 ## Certifications
 
-Cisco CCNA Routing and Switching: [2016 – 2019](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url) \
+[Cisco CCNA Routing and Switching](https://www.youracclaim.com/badges/a6762ff6-7d76-4c09-95b1-bcee09c4586b/public_url): 2016 – 2019 \
 Topics included IPv4/6, TCP/UDP, Ethernet (VLANs, STP, security), static and dynamic routing.
