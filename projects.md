@@ -1,32 +1,33 @@
 # Projects / Portfolio
 
-A **non-exhaustive** list of interesting software projects I have developed or contributed to:
+A non-exhaustive list of interesting software projects I have developed or contributed to:
 
 ## Personal Projects
 
-### Solar Screen Brightness
+### Solar Screen Brightness ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/solar-screen-brightness)
 
-**Repository**: [jacob-pro/solar-screen-brightness](https://github.com/jacob-pro/solar-screen-brightness) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/solar-screen-brightness)
+**Repository**: [jacob-pro/solar-screen-brightness](https://github.com/jacob-pro/solar-screen-brightness)
 
 - Created an automatic screen brightness adjuster that transitions smoothly between day/night levels using computed sunrise/sunset times for the user's location.
 - Cross-platform desktop application (Windows and Linux support).
 - Features a configuration GUI with location picker, configurable brightness/transition settings and monitor overrides.
 - Sunrise/sunset calculations provided using my own lightweight, reusable library ([jacob-pro/sunrise-sunset-calculator](https://github.com/jacob-pro/sunrise-sunset-calculator)). 
 
-### Actix Extensible Rate Limit
+### Actix Extensible Rate Limit ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/actix-extensible-rate-limit)
 
-**Repository**: [jacob-pro/actix-extensible-rate-limit](https://github.com/jacob-pro/actix-extensible-rate-limit) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/actix-extensible-rate-limit)
+**Repository**: [jacob-pro/actix-extensible-rate-limit](https://github.com/jacob-pro/actix-extensible-rate-limit)
 
 - Created a flexible middleware supporting custom rate limit keys, dynamic limits, and request-context-aware policies.
 - Designed pluggable abstractions for storage and limiting algorithms, allowing users to integrate their own custom backends.
 - Provided reference backend implementations using Dashmap and Redis.
 - Enabled advanced features: rollback on failed requests, custom error responses, detailed rate-limit headers.
 
-### WSL2 Dns Agent
+### WSL2 Dns Agent ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/wsl2-dns-agent)
 
-**Repository**: [jacob-pro/wsl2-dns-agent](https://github.com/jacob-pro/wsl2-dns-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/wsl2-dns-agent)
+**Repository**: [jacob-pro/wsl2-dns-agent](https://github.com/jacob-pro/wsl2-dns-agent) 
 
 - Windows tray agent to automatically fix WSL2 DNS configuration during VPN connection/disconnection.
+- Makes WSL2 in NAT networking mode usable with corporate VPNs.
 - Uses Win32 APIs to identify system DNS configuration based on interface metrics.
 
 ## Open Source Contributions
