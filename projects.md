@@ -1,36 +1,48 @@
-# Projects
+# Projects / Portfolio
 
 A **non-exhaustive** list of various software projects I have developed or contributed to over the years.
 
 ## Open Source Contributions
 
-[lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core/pulls?q=is%3Aclosed+author%3Ajacob-pro+): \
-Fix: Support TLS CA only verification when connecting to a Redis Cluster. Improvements made to refresh logging.
+### Actix Multipart Extractor
 
-[actix/actix-web](https://github.com/actix/actix-web/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-⭐ Features: Added a type safe [multipart form extractor](https://docs.rs/actix-multipart/latest/actix_multipart/form/index.html).
+**Repository**: [actix/actix-web](https://github.com/actix/actix-web/) (A major web framework for Rust)
 
-[juhaku/utoipa](https://github.com/juhaku/utoipa/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Features: Added support for various parts of the OpenAPI specification.
+- Initiated and led a community design discussion ([#2849](https://github.com/actix/actix-web/issues/2849)) to define requirements for typed multipart handling.
+- Designed and implemented the resulting `multipart/form-data` extractor and derive macro ([#2883](https://github.com/actix/actix-web/pull/2883)).
+- Enabled ergonomic, struct-based parsing of uploads (files, JSON, text, optional & list fields)
+- Configurable size limits and async-safe streamed file handling to constrain memory usage.
 
-[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Various improvements to the Rust code generators. Member of Rust technical committee.
+### Rust Brightness API
 
-[tmccombs/tls-listener](https://github.com/tmccombs/tls-listener/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Features: Added native-tls and openssl library support, made it possible to reload TLS certificates at runtime, with
-examples.
+**Repository**: [stephaneyfx/brightness](https://github.com/stephaneyfx/brightness) (Cross-platform monitor brightness API for Rust)
 
-[lettre/lettre](https://github.com/lettre/lettre/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-Features: Added support for configuring local IP addresses, added functions to allow access to the TLS peer certificate.
+- Implemented support for external monitors and laptop screens on Windows by creating a safer, more ergonomic wrapper around the Win32 brightness APIs.
+- Refactored the library's API into async and blocking variants, improving usability, correctness, and consistency across platforms ([#10](https://github.com/stephaneyfx/brightness/pull/10)).
 
-[stephaneyfx/brightness](https://github.com/stephaneyfx/brightness/pulls?q=is%3Amerged+author%3Ajacob-pro): \
-⭐ Features: Added support for Windows. Fix: Ensure blocking and async is used appropriately.
+### Smaller Contributions
 
-[Turasa/libsignal-service-java](https://github.com/Turasa/libsignal-service-java/pull/28): \
-Fix: Ensure that the WebSocketConnection respects the ConnectionSpecs.
+[lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core): 
+Fix for TLS CA-only verification ([#2329](https://github.com/redis/lettuce/pull/2329)), 
+improvements made to refresh logging ([#2338](https://github.com/redis/lettuce/pull/2338)).
 
-[libvirt/libvirt-rust](https://gitlab.com/libvirt/libvirt-rust/-/merge_requests/14): \
-Fix: Removed invalid functions, added test case to ensure symbols are valid.
+[juhaku/utoipa](https://github.com/juhaku/utoipa/): 
+Added support for various parts of the OpenAPI specification ([multiple PRs](https://github.com/juhaku/utoipa/pulls?q=is%3Amerged+author%3Ajacob-pro)).
+
+[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator): 
+Various improvements to the Rust code generators ([multiple PRs](https://github.com/OpenAPITools/openapi-generator/pulls?q=is%3Amerged+author%3Ajacob-pro)).
+
+[tmccombs/tls-listener](https://github.com/tmccombs/tls-listener): 
+Added native-tls ([#7](https://github.com/tmccombs/tls-listener/pull/7)) and openssl ([#21](https://github.com/tmccombs/tls-listener/pull/21)) 
+library support, made it possible to reload TLS certificates at runtime ([#11](https://github.com/tmccombs/tls-listener/pull/11)), with
+examples ([#25](https://github.com/tmccombs/tls-listener/pull/25)).
+
+[lettre/lettre](https://github.com/lettre/lettre):
+Added support for configuring local IP addresses ([#762](https://github.com/lettre/lettre/pull/762)), added functions to allow access to the TLS peer certificate ([#716](https://github.com/lettre/lettre/pull/716)).
+
+[Turasa/libsignal-service-java](https://github.com/Turasa/libsignal-service-java): Fix to ensure that the WebSocketConnection respects the ConnectionSpecs ([#28](https://github.com/Turasa/libsignal-service-java/pull/28)).
+
+[libvirt/libvirt-rust](https://gitlab.com/libvirt/libvirt-rust): Fix invalid functions, added test case to ensure symbols are valid ([#14](https://gitlab.com/libvirt/libvirt-rust/-/merge_requests/14)).
 
 ## Personal Projects
 
