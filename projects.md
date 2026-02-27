@@ -1,12 +1,39 @@
 # Projects / Portfolio
 
-A **non-exhaustive** list of various software projects I have developed or contributed to over the years.
+A **non-exhaustive** list of interesting software projects I have developed or contributed to:
+
+## Personal Projects
+
+### Solar Screen Brightness
+
+**Repository**: [jacob-pro/solar-screen-brightness](https://github.com/jacob-pro/solar-screen-brightness) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/solar-screen-brightness)
+
+- Created an automatic screen brightness adjuster that transitions smoothly between day/night levels using computed sunrise/sunset times for the user's location.
+- Cross-platform desktop application (Windows and Linux support).
+- Features a configuration GUI with location picker, configurable brightness/transition settings and monitor overrides.
+- Sunrise/sunset calculations provided using my own lightweight, reusable library ([jacob-pro/sunrise-sunset-calculator](https://github.com/jacob-pro/sunrise-sunset-calculator)). 
+
+### Actix Extensible Rate Limit
+
+**Repository**: [jacob-pro/actix-extensible-rate-limit](https://github.com/jacob-pro/actix-extensible-rate-limit) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/actix-extensible-rate-limit)
+
+- Created a flexible middleware supporting custom rate limit keys, dynamic limits, and request-context-aware policies.
+- Designed pluggable abstractions for storage and limiting algorithms, allowing users to integrate their own custom backends.
+- Provided reference backend implementations using Dashmap and Redis.
+- Enabled advanced features: rollback on failed requests, custom error responses, detailed rate-limit headers.
+
+### WSL2 Dns Agent
+
+**Repository**: [jacob-pro/wsl2-dns-agent](https://github.com/jacob-pro/wsl2-dns-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/jacob-pro/wsl2-dns-agent)
+
+- Windows tray agent to automatically fix WSL2 DNS configuration during VPN connection/disconnection.
+- Uses Win32 APIs to identify system DNS configuration based on interface metrics.
 
 ## Open Source Contributions
 
 ### Actix Multipart Extractor
 
-**Repository**: [actix/actix-web](https://github.com/actix/actix-web/) (A major web framework for Rust)
+**Repository**: [actix/actix-web](https://github.com/actix/actix-web/)
 
 - Initiated and led a community design discussion ([#2849](https://github.com/actix/actix-web/issues/2849)) to define requirements for typed multipart handling.
 - Designed and implemented the resulting `multipart/form-data` extractor and derive macro ([#2883](https://github.com/actix/actix-web/pull/2883)).
@@ -15,7 +42,7 @@ A **non-exhaustive** list of various software projects I have developed or contr
 
 ### Rust Brightness API
 
-**Repository**: [stephaneyfx/brightness](https://github.com/stephaneyfx/brightness) (Cross-platform monitor brightness API for Rust)
+**Repository**: [stephaneyfx/brightness](https://github.com/stephaneyfx/brightness)
 
 - Implemented support for external monitors and laptop screens on Windows by creating a safer, more ergonomic wrapper around the Win32 brightness APIs.
 - Refactored the library's API into async and blocking variants, improving usability, correctness, and consistency across platforms ([#10](https://github.com/stephaneyfx/brightness/pull/10)).
@@ -43,53 +70,6 @@ Added support for configuring local IP addresses ([#762](https://github.com/lett
 [Turasa/libsignal-service-java](https://github.com/Turasa/libsignal-service-java): Fix to ensure that the WebSocketConnection respects the ConnectionSpecs ([#28](https://github.com/Turasa/libsignal-service-java/pull/28)).
 
 [libvirt/libvirt-rust](https://gitlab.com/libvirt/libvirt-rust): Fix invalid functions, added test case to ensure symbols are valid ([#14](https://gitlab.com/libvirt/libvirt-rust/-/merge_requests/14)).
-
-## Personal Projects
-
-⭐ Solar Screen Brightness \
-<https://github.com/jacob-pro/solar-screen-brightness> \
-A Windows & Linux desktop application to smoothly adjust monitor brightness according to sunrise/sunset times.
-
-⭐ Actix Extensible Rate Limit \
-<https://github.com/jacob-pro/actix-extensible-rate-limit> \
-Rate limiting middleware for the actix-web framework, with support for a variety of custom and advanced use-cases.
-
-Sunrise Sunset Calculator \
-<https://github.com/jacob-pro/sunrise-sunset-calculator> \
-A library for computing times of sunrise and sunset based on latitude / longitude. Implementations in C and Rust.
-
-⭐ WSL2 DNS Agent \
-<https://github.com/jacob-pro/wsl2-dns-agent> \
-A utility for automatically updating WSL2 DNS configs when using a VPN.
-
-cspice-rs \
-<https://github.com/jacob-pro/cspice-rs> \
-Rust bindings and high-level safer APIs for NASA's [SPICE Toolkit](https://naif.jpl.nasa.gov/naif/toolkit.html)
-
-mdBook Bibfile Referencing \
-<https://github.com/jacob-pro/mdbook-bibfile-referencing> \
-A plugin for mdBook (Rust online book generator) that adds a Pandoc generated bibliography to each chapter.
-
-Calpol \
-<https://github.com/jacob-pro/calpol> \
-A health monitor that tests HTTP and SMTP servers on a regular interval, checking that they are up and have valid
-certificates etc. Tests exceeding a failure threshold trigger automated SMS and email notifications. The service
-is manageable via a REST API and CLI client.
-
-Kiwi Joinery \
-<https://github.com/kiwi-joinery> \
-Developed a website for a joinery company including: \
-\- The public facing website (HTML/CSS/JavaScript). \
-\- A REST API using Rust (Actix Web & Diesel frameworks, Postgres). \
-\- An administration website using Rust WASM (Yew Framework).
-
-Docker Certbot HAProxy \
-<https://github.com/jacob-pro/docker-certbot-haproxy> \
-A docker image for automating LetsEncrypt Certbot certificate rotation with HAProxy.
-
-Docker OpenVPN Router \
-<https://github.com/jacob-pro/docker-openvpn-router> \
-A docker image that creates a NAT router behind an OpenVPN tunnel.
 
 ## Undergraduate Projects (2018-2021)
 
@@ -139,7 +119,7 @@ Also performed substantial maintenance on the REST API and admin website codebas
 Redeveloped the iOS app (Swift) as well as the REST API (PHP/MySQL) for a group video call app.
 
 Sentimento \
-Jointly developed the iOS app (Objective-C) for a photo storage / sharing service.
+Jointly developed the iOS app (Objective-C) for a photo and card sharing platform.
 
 [myAllergy Passport](https://web.archive.org/web/20220626081540/https://apps.apple.com/gb/app/myallergy-passport/id1437609648) \
 Developed the iOS app (Objective-C) for sharing allergy information.
